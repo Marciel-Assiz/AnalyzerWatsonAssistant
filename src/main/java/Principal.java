@@ -16,9 +16,9 @@ public class Principal {
 	public static void main(String[] args) {
 		try {
 			  // Invoke a Natural Language Understanding method
-			IamAuthenticator authenticator = new IamAuthenticator("b6GgjzSLHSewPh0mMNPGkS1mSsNNSBd8E_cyrcqn4VBd");
+			IamAuthenticator authenticator = new IamAuthenticator("sua_autenticacao");
 			NaturalLanguageUnderstanding naturalLanguageUnderstanding = new NaturalLanguageUnderstanding("2019-07-12", authenticator);
-			naturalLanguageUnderstanding.setServiceUrl("https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/337fd35e-475e-46ef-b762-808f5a8b15ae");
+			naturalLanguageUnderstanding.setServiceUrl("https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/sua_instanciaUrl");
 
 			String text = "Hoje eu estou muito triste por causa das mortes causadas pelo Covid-19.";
 
